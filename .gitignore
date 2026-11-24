@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.nbi
+*.nbc
+*.egg-info/
+build/
+dist/
+.venv*/
+.pytest_cache/
+
+# downloaded by experiments/import_published_monster.py
+results/published_monster.xlsx
