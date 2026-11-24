@@ -1,0 +1,3 @@
+method,fit_total_s,predict_total_s,mem_above_data_median_gib,mem_above_data_max_gib,mem_total_median_gib,mem_total_max_gib,model_median_mb,model_max_mb
+FERRETS,3096,245,0.30,0.40,0.87,11.35,4.0,19.1
+MiniRocket,11477,200,15.20,55.17,17.09,55.57,0.5,3.6

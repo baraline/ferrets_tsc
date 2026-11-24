@@ -1,0 +1,5 @@
+quantity,datasets,largest_share_pct
+PAA bit decided by a tie,48,6.1
+level bin decided by a tie,7,54
+PAA key differs from exact arithmetic,42,1.0
+level key differs from exact arithmetic,2,0.04

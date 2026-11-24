@@ -1,0 +1,5 @@
+method,cells,fit_total_s,predict_total_s,peak_mem_median_gib,peak_mem_max_gib,model_max_mb
+FERRETS,125,455,104,0.40,13.3,42.8
+MiniRocket,122,1868,287,0.11,49.5,1.9
+Hydra,117,7506,785,0.67,57.7,1.0
+BORF,103,25606,6164,0.76,43.1,2666

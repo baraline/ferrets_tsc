@@ -1,0 +1,26 @@
+variant,ucr_fit,ucr_predict,mv_fit,mv_predict,monster_fit,monster_predict
+Without the first difference,0.60,0.51,0.50,0.50,,
+PAA words only,0.83,0.76,,,,
+Fourier words only,0.90,0.96,,,,
+Fifty dictionaries per side,0.76,0.62,,,,
+Two hundred dictionaries per side,1.37,1.53,,,,
+Dilation one only,0.39,0.18,,,,
+Four-bit words,0.80,1.33,,,,
+Two-bit words,0.72,0.99,,,,
+"Raw counts, no sublinear transform",1.03,1.00,1.09,1.01,,
+Without the level word,0.70,0.72,0.85,0.89,0.81,0.76
+Refit on the heaviest half of the families,1.80,0.73,,,,
+Logistic head,1.30,1.00,,,,
+Streaming least-squares head,3.44,1.00,,,,
+Ridge penalty by cross-validation,15.07,1.00,,,,
+Without the prior shift,1.00,1.01,1.03,1.08,,
+Without the batch class weights,1.00,1.00,1.06,1.02,,
+Without either,1.00,1.01,1.04,1.07,,
+Without the streaming class weights,0.93,1.00,,,1.02,1.00
+Adding idf weighting,1.01,1.00,1.03,1.01,1.00,1.00
+Adding numerosity reduction,1.01,1.02,1.03,1.14,1.00,1.03
+Adding document-frequency pruning,0.99,1.00,1.07,1.07,1.00,1.00
+Adding all three,0.99,1.02,1.02,1.09,1.00,1.01
+Without the cross-channel words,,,0.82,0.74,,
+Coarse cross-channel word only,,,0.95,0.91,,
+Every channel keyed on its own,,,3.5,2.9,,

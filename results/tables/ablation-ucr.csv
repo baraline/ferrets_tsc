@@ -1,0 +1,25 @@
+block,change,acc_delta,acc_wins,acc_losses,acc_ties,acc_p,acc_p_holm,bal_delta,bal_wins,bal_losses,bal_ties,bal_p,bal_p_holm,macro_f1_delta
+components removed or replaced,PAA dictionaries only,-0.007,10,72,10,1.4e-11,5.7e-10,-0.007,10,75,7,7.1e-11,2.8e-9,-0.008
+components removed or replaced,Fourier dictionaries only,-0.004,27,55,10,2.3e-6,5.9e-5,-0.005,25,60,7,2.7e-6,6.5e-5,-0.005
+components removed or replaced,no first difference,-0.013,21,68,3,1.4e-7,4.3e-6,-0.013,22,67,3,5.9e-7,1.7e-5,-0.013
+components removed or replaced,no level word,-0.009,31,57,4,0.0060,0.11,-0.013,31,57,4,0.0013,0.025,-0.012
+components removed or replaced,every dictionary at dilation 1,-0.015,32,51,9,0.019,0.30,-0.016,31,52,9,0.0062,0.11,-0.016
+components removed or replaced,four-bit words (16 keys),-0.022,11,78,3,1.9e-13,8.1e-12,-0.022,11,79,2,1.2e-12,5.0e-11,-0.023
+components removed or replaced,two-bit words (4 keys),-0.037,8,80,4,4.1e-14,1.8e-12,-0.039,8,80,4,4.6e-14,2.0e-12,-0.040
+components removed or replaced,R = 50 dictionaries per side,-0.002,19,58,15,5.8e-7,1.7e-5,-0.002,18,62,12,5.8e-8,1.9e-6,-0.002
+components removed or replaced,R = 200 dictionaries per side,0.000,40,41,11,0.75,1,0.000,38,43,11,0.79,1,0.000
+components removed or replaced,refit on the heaviest half,-0.001,32,44,16,0.11,1,-0.002,31,50,11,0.024,0.36,-0.002
+components removed or replaced,"raw counts, not sublinear tf",-0.015,23,61,8,1.6e-6,4.2e-5,-0.015,22,63,7,9.5e-7,2.7e-5,-0.016
+components removed or replaced,logistic SGD head (3 epochs),-0.042,7,83,2,1.5e-14,6.8e-13,-0.046,6,84,2,5.5e-15,2.5e-13,-0.049
+components removed or replaced,streaming least-squares head,-0.005,16,66,10,5.0e-9,1.8e-7,-0.007,16,69,7,5.7e-10,2.2e-8,-0.007
+components removed or replaced,"3-fold CV alpha, iterative fit",-0.002,19,39,34,0.025,0.36,-0.002,23,36,33,0.054,0.71,-0.002
+components removed or replaced,no prior shift (batch),0.000,8,13,71,0.20,1,-0.002,4,18,70,1.2e-4,0.0024,-0.002
+components removed or replaced,no class weights (batch),0.001,18,14,60,0.10,1,-0.001,16,23,53,0.49,1,-0.001
+components removed or replaced,neither rule (batch),0.000,13,20,59,0.31,1,-0.004,8,30,54,9.5e-6,2.1e-4,-0.004
+components removed or replaced,no class weights (streaming),-0.001,20,24,48,0.32,1,-0.003,12,34,46,6.0e-5,0.0013,-0.002
+optional bag transforms added,+ idf,-0.006,19,67,6,3.0e-8,1.0e-6,-0.006,19,67,6,5.4e-8,1.8e-6,-0.006
+optional bag transforms added,+ numerosity reduction,-0.004,20,64,8,2.5e-6,6.3e-5,-0.005,21,65,6,7.6e-6,1.7e-4,-0.005
+optional bag transforms added,+ pruning of df < 2 columns,0.000,25,21,46,0.55,1,0.000,22,28,42,0.97,1,0.000
+optional bag transforms added,+ all three,-0.009,12,73,7,1.9e-9,6.8e-8,-0.010,14,71,7,7.5e-10,2.8e-8,-0.010
+optional bag transforms added,best of the eight (oracle),0.003,55,0,37,,,0.003,51,4,37,,,0.003
+optional bag transforms added,"chosen on 1-4, scored on 5-9",0.001,27,20,45,0.20,1,0.001,27,20,45,0.18,1,0.001
