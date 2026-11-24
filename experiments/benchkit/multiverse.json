@@ -1,0 +1,1307 @@
+{
+ "source": {
+  "lists": "aeon main, aeon/datasets/tsc_datasets.py (fetched 2026-09-11); multiverse_core as of aeon commit d52b0cc (2026-10-08), which removed BenzeneConcentration_disc (rechecked 2026-11-09)",
+  "meta": "arXiv:2603.20352v1 LaTeX source, dataset table; m is the longest series where lengths vary ('var': true)"
+ },
+ "multiverse2026": [
+  "Alzheimers",
+  "AppliancesEnergy_disc",
+  "ArticularyWordRecognition",
+  "AsphaltObstaclesCoordinates",
+  "AsphaltPavementTypeCoordinates",
+  "AsphaltRegularityCoordinates",
+  "AtrialFibrillation",
+  "AustraliaRainfall_disc",
+  "AutomotiveRoadTrials",
+  "BIDMC32HR_disc",
+  "BIDMC32RR_disc",
+  "BIDMC32SpO2_disc",
+  "BasicMotions",
+  "BeijingPM10Quality_disc",
+  "BeijingPM25Quality_disc",
+  "BenzeneConcentration_disc",
+  "Blink",
+  "BoneIntensitiesAgeGroup",
+  "BoneProbAgeGroup",
+  "ButtonPress",
+  "CharacterTrajectories",
+  "CounterMovementJump",
+  "Cricket",
+  "CrowdSourced",
+  "DREAMERA",
+  "DREAMERV",
+  "DuckDuckGeese",
+  "ERing",
+  "EigenWorms",
+  "EmoPain",
+  "Epilepsy",
+  "EthanolConcentration",
+  "EyesOpenShut",
+  "FaceDetection",
+  "FeedbackButton",
+  "FeetHands",
+  "FingerMovements",
+  "FordChallenge",
+  "HandMovementDirection",
+  "Handwriting",
+  "Heartbeat",
+  "HouseholdPowerConsumption1_disc",
+  "HouseholdPowerConsumption2_disc",
+  "IEEEPPG_disc",
+  "IRDS-EFL",
+  "IRDS-EFR",
+  "IRDS-SAL",
+  "IRDS-SAR",
+  "IRDS-SFE",
+  "IRDS-SFL",
+  "IRDS-SFR",
+  "IRDS-STL",
+  "IRDS-STR",
+  "ImaginedFeetHands",
+  "ImaginedOpenCloseFist",
+  "InnerSpeech",
+  "InsectWingbeat",
+  "JapaneseVowels",
+  "KERAAL-CTK",
+  "KERAAL-CTK-MC",
+  "KERAAL-ELK",
+  "KERAAL-ELK-MC",
+  "KERAAL-RTK",
+  "KERAAL-RTK-MC",
+  "KIMORE-LA-C",
+  "KIMORE-LT-C",
+  "KIMORE-PR-C",
+  "KIMORE-Sq-C",
+  "KIMORE-TR-C",
+  "KINECAL-3WFV",
+  "KINECAL-GGFV",
+  "KINECAL-QSEC",
+  "KINECAL-QSEO",
+  "LSST",
+  "LenDB",
+  "Libras",
+  "LiveFuelMoistureContent_disc",
+  "Locust2022",
+  "LongIntervalTask",
+  "LowCost",
+  "MatchingPennies",
+  "MindReading",
+  "MotionSenseHAR",
+  "MotorImagery",
+  "NATOPS",
+  "NewsHeadlineSentiment_disc",
+  "NewsTitleSentiment_disc",
+  "OpenCloseFist",
+  "Opportunity",
+  "PAMAP2",
+  "PEMS-SF",
+  "PPGDalia_disc",
+  "PenDigits",
+  "PhonemeSpectra",
+  "PhotoStimulation",
+  "PronouncedSpeech",
+  "RacketSports",
+  "S2Agri-10pc-17",
+  "S2Agri-10pc-34",
+  "S2Agri-17",
+  "S2Agri-34",
+  "SPHERE-WUS",
+  "STEW",
+  "SelfRegulationSCP1",
+  "SelfRegulationSCP2",
+  "ShortIntervalTask",
+  "SitStand",
+  "Skoda",
+  "SongFamiliarity",
+  "SpokenArabicDigits",
+  "StandWalkJump",
+  "TactileTextureRecognition",
+  "Tiselac",
+  "UCDHE-MP",
+  "UCDHE-MP-MC",
+  "UCDHE-Rowing",
+  "UCDHE-Rowing-MC",
+  "UCIActivity",
+  "UIPRMD-DS-C",
+  "UIPRMD-HS-C",
+  "UIPRMD-IL-C",
+  "UIPRMD-SASLR-C",
+  "UIPRMD-SL-C",
+  "UIPRMD-SSA-C",
+  "UIPRMD-SSE-C",
+  "UIPRMD-SSIER-C",
+  "UIPRMD-SSS-C",
+  "UIPRMD-STS-C",
+  "USCActivity",
+  "UWaveGestureLibrary",
+  "VisualSpeech",
+  "WISDM",
+  "WISDM2"
+ ],
+ "multiverse_core": [
+  "Alzheimers",
+  "AppliancesEnergy_disc",
+  "ArticularyWordRecognition",
+  "AsphaltObstaclesCoordinates",
+  "AsphaltRegularityCoordinates",
+  "AtrialFibrillation",
+  "AustraliaRainfall_disc",
+  "AutomotiveRoadTrials",
+  "BeijingPM10Quality_disc",
+  "BeijingPM25Quality_disc",
+  "BIDMC32HR_disc",
+  "BIDMC32SpO2_disc",
+  "Blink",
+  "BoneIntensitiesAgeGroup",
+  "BoneProbAgeGroup",
+  "CharacterTrajectories",
+  "CounterMovementJump",
+  "Cricket",
+  "CrowdSourced",
+  "DuckDuckGeese",
+  "EigenWorms",
+  "EmoPain",
+  "Epilepsy",
+  "ERing",
+  "EthanolConcentration",
+  "EyesOpenShut",
+  "FaceDetection",
+  "FordChallenge",
+  "HandMovementDirection",
+  "Handwriting",
+  "Heartbeat",
+  "HouseholdPowerConsumption1_disc",
+  "HouseholdPowerConsumption2_disc",
+  "IEEEPPG_disc",
+  "IRDS-SFL",
+  "JapaneseVowels",
+  "KERAAL-RTK",
+  "KIMORE-PR-C",
+  "KINECAL-QSEO",
+  "Libras",
+  "Locust2022",
+  "LowCost",
+  "LSST",
+  "MindReading",
+  "MotionSenseHAR",
+  "MotorImagery",
+  "NATOPS",
+  "PEMS-SF",
+  "PenDigits",
+  "PhonemeSpectra",
+  "PhotoStimulation",
+  "RacketSports",
+  "SelfRegulationSCP1",
+  "Skoda",
+  "SpokenArabicDigits",
+  "StandWalkJump",
+  "STEW",
+  "TactileTextureRecognition",
+  "Tiselac",
+  "UCDHE-Rowing-MC",
+  "UCIActivity",
+  "UIPRMD-DS-C",
+  "USCActivity",
+  "UWaveGestureLibrary",
+  "WISDM"
+ ],
+ "monster": [
+  "AudioMNIST",
+  "AudioMNIST-DS",
+  "CornellWhaleChallenge",
+  "CrowdSourced",
+  "DREAMERA",
+  "DREAMERV",
+  "FordChallenge",
+  "FruitFlies",
+  "InsectSound",
+  "LakeIce",
+  "LenDB",
+  "MosquitoSound",
+  "Opportunity",
+  "PAMAP2",
+  "Pedestrian",
+  "S2Agri-17",
+  "S2Agri-34",
+  "S2Agri-10pc-17",
+  "S2Agri-10pc-34",
+  "Skoda",
+  "STEW",
+  "TimeSen2Crop",
+  "Tiselac",
+  "Traffic",
+  "UCIActivity",
+  "USCActivity",
+  "WhaleSounds",
+  "WISDM",
+  "WISDM2"
+ ],
+ "meta": {
+  "Alzheimers": {
+   "n_train": 45,
+   "n_test": 43,
+   "C": 19,
+   "m": 15000,
+   "K": 3,
+   "var": false
+  },
+  "AppliancesEnergy_disc": {
+   "n_train": 95,
+   "n_test": 42,
+   "C": 24,
+   "m": 144,
+   "K": 2,
+   "var": false
+  },
+  "ArticularyWordRecognition": {
+   "n_train": 275,
+   "n_test": 300,
+   "C": 9,
+   "m": 144,
+   "K": 25,
+   "var": false
+  },
+  "AsphaltObstaclesCoordinates": {
+   "n_train": 390,
+   "n_test": 391,
+   "C": 3,
+   "m": 736,
+   "K": 4,
+   "var": true
+  },
+  "AsphaltPavementTypeCoordinates": {
+   "n_train": 1055,
+   "n_test": 1056,
+   "C": 3,
+   "m": 2371,
+   "K": 3,
+   "var": true
+  },
+  "AsphaltRegularityCoordinates": {
+   "n_train": 751,
+   "n_test": 751,
+   "C": 3,
+   "m": 4201,
+   "K": 2,
+   "var": true
+  },
+  "AtrialFibrillation": {
+   "n_train": 15,
+   "n_test": 15,
+   "C": 2,
+   "m": 640,
+   "K": 3,
+   "var": false
+  },
+  "AustraliaRainfall_disc": {
+   "n_train": 112186,
+   "n_test": 48081,
+   "C": 3,
+   "m": 24,
+   "K": 4,
+   "var": false
+  },
+  "AutomotiveRoadTrials": {
+   "n_train": 153,
+   "n_test": 77,
+   "C": 8,
+   "m": 300,
+   "K": 2,
+   "var": false
+  },
+  "BIDMC32HR_disc": {
+   "n_train": 5550,
+   "n_test": 2399,
+   "C": 2,
+   "m": 4000,
+   "K": 3,
+   "var": false
+  },
+  "BIDMC32RR_disc": {
+   "n_train": 5471,
+   "n_test": 2399,
+   "C": 2,
+   "m": 4000,
+   "K": 3,
+   "var": false
+  },
+  "BIDMC32SpO2_disc": {
+   "n_train": 5550,
+   "n_test": 2399,
+   "C": 2,
+   "m": 4000,
+   "K": 2,
+   "var": false
+  },
+  "BasicMotions": {
+   "n_train": 40,
+   "n_test": 40,
+   "C": 6,
+   "m": 100,
+   "K": 4,
+   "var": false
+  },
+  "BeijingPM10Quality_disc": {
+   "n_train": 11918,
+   "n_test": 5048,
+   "C": 9,
+   "m": 24,
+   "K": 2,
+   "var": true
+  },
+  "BeijingPM25Quality_disc": {
+   "n_train": 11918,
+   "n_test": 5048,
+   "C": 9,
+   "m": 24,
+   "K": 2,
+   "var": true
+  },
+  "BenzeneConcentration_disc": {
+   "n_train": 3349,
+   "n_test": 5163,
+   "C": 8,
+   "m": 240,
+   "K": 2,
+   "var": true
+  },
+  "Blink": {
+   "n_train": 500,
+   "n_test": 450,
+   "C": 4,
+   "m": 510,
+   "K": 2,
+   "var": false
+  },
+  "BoneIntensitiesAgeGroup": {
+   "n_train": 600,
+   "n_test": 445,
+   "C": 8,
+   "m": 270,
+   "K": 3,
+   "var": false
+  },
+  "BoneProbAgeGroup": {
+   "n_train": 600,
+   "n_test": 445,
+   "C": 8,
+   "m": 256,
+   "K": 3,
+   "var": false
+  },
+  "ButtonPress": {
+   "n_train": 120,
+   "n_test": 120,
+   "C": 32,
+   "m": 1000,
+   "K": 2,
+   "var": false
+  },
+  "CharacterTrajectories": {
+   "n_train": 1422,
+   "n_test": 1436,
+   "C": 3,
+   "m": 182,
+   "K": 20,
+   "var": true
+  },
+  "CounterMovementJump": {
+   "n_train": 419,
+   "n_test": 179,
+   "C": 3,
+   "m": 7069,
+   "K": 3,
+   "var": true
+  },
+  "Cricket": {
+   "n_train": 108,
+   "n_test": 72,
+   "C": 6,
+   "m": 1197,
+   "K": 12,
+   "var": false
+  },
+  "CrowdSourced": {
+   "n_train": 9456,
+   "n_test": 2833,
+   "C": 14,
+   "m": 256,
+   "K": 2,
+   "var": false
+  },
+  "DREAMERA": {
+   "n_train": 140638,
+   "n_test": 29608,
+   "C": 14,
+   "m": 256,
+   "K": 2,
+   "var": false
+  },
+  "DREAMERV": {
+   "n_train": 140638,
+   "n_test": 29608,
+   "C": 14,
+   "m": 256,
+   "K": 2,
+   "var": false
+  },
+  "DuckDuckGeese": {
+   "n_train": 50,
+   "n_test": 50,
+   "C": 1345,
+   "m": 270,
+   "K": 5,
+   "var": false
+  },
+  "ERing": {
+   "n_train": 30,
+   "n_test": 270,
+   "C": 4,
+   "m": 65,
+   "K": 6,
+   "var": false
+  },
+  "EigenWorms": {
+   "n_train": 128,
+   "n_test": 131,
+   "C": 6,
+   "m": 17984,
+   "K": 5,
+   "var": false
+  },
+  "EmoPain": {
+   "n_train": 968,
+   "n_test": 355,
+   "C": 30,
+   "m": 200,
+   "K": 3,
+   "var": false
+  },
+  "Epilepsy": {
+   "n_train": 137,
+   "n_test": 138,
+   "C": 3,
+   "m": 206,
+   "K": 4,
+   "var": false
+  },
+  "EthanolConcentration": {
+   "n_train": 261,
+   "n_test": 263,
+   "C": 3,
+   "m": 1751,
+   "K": 4,
+   "var": false
+  },
+  "EyesOpenShut": {
+   "n_train": 56,
+   "n_test": 42,
+   "C": 14,
+   "m": 128,
+   "K": 2,
+   "var": false
+  },
+  "FaceDetection": {
+   "n_train": 5890,
+   "n_test": 3524,
+   "C": 144,
+   "m": 62,
+   "K": 2,
+   "var": false
+  },
+  "FeedbackButton": {
+   "n_train": 1700,
+   "n_test": 1150,
+   "C": 61,
+   "m": 450,
+   "K": 2,
+   "var": false
+  },
+  "FeetHands": {
+   "n_train": 2835,
+   "n_test": 1890,
+   "C": 64,
+   "m": 640,
+   "K": 2,
+   "var": false
+  },
+  "FingerMovements": {
+   "n_train": 316,
+   "n_test": 100,
+   "C": 28,
+   "m": 50,
+   "K": 2,
+   "var": false
+  },
+  "FordChallenge": {
+   "n_train": 29003,
+   "n_test": 7254,
+   "C": 30,
+   "m": 40,
+   "K": 2,
+   "var": false
+  },
+  "HandMovementDirection": {
+   "n_train": 160,
+   "n_test": 74,
+   "C": 10,
+   "m": 400,
+   "K": 4,
+   "var": false
+  },
+  "Handwriting": {
+   "n_train": 150,
+   "n_test": 850,
+   "C": 3,
+   "m": 152,
+   "K": 26,
+   "var": false
+  },
+  "Heartbeat": {
+   "n_train": 204,
+   "n_test": 205,
+   "C": 61,
+   "m": 405,
+   "K": 2,
+   "var": false
+  },
+  "HouseholdPowerConsumption1_disc": {
+   "n_train": 746,
+   "n_test": 694,
+   "C": 5,
+   "m": 1440,
+   "K": 3,
+   "var": false,
+   "approx": true
+  },
+  "HouseholdPowerConsumption2_disc": {
+   "n_train": 746,
+   "n_test": 694,
+   "C": 5,
+   "m": 1440,
+   "K": 3,
+   "var": false,
+   "approx": true
+  },
+  "IEEEPPG_disc": {
+   "n_train": 1768,
+   "n_test": 1328,
+   "C": 5,
+   "m": 1000,
+   "K": 3,
+   "var": false
+  },
+  "IRDS-EFL": {
+   "n_train": 223,
+   "n_test": 26,
+   "C": 75,
+   "m": 60,
+   "K": 2,
+   "var": false
+  },
+  "IRDS-EFR": {
+   "n_train": 256,
+   "n_test": 15,
+   "C": 75,
+   "m": 75,
+   "K": 2,
+   "var": false
+  },
+  "IRDS-SAL": {
+   "n_train": 213,
+   "n_test": 56,
+   "C": 75,
+   "m": 82,
+   "K": 2,
+   "var": false
+  },
+  "IRDS-SAR": {
+   "n_train": 218,
+   "n_test": 33,
+   "C": 75,
+   "m": 76,
+   "K": 2,
+   "var": false
+  },
+  "IRDS-SFE": {
+   "n_train": 237,
+   "n_test": 15,
+   "C": 75,
+   "m": 95,
+   "K": 2,
+   "var": false
+  },
+  "IRDS-SFL": {
+   "n_train": 253,
+   "n_test": 116,
+   "C": 75,
+   "m": 111,
+   "K": 2,
+   "var": false
+  },
+  "IRDS-SFR": {
+   "n_train": 295,
+   "n_test": 15,
+   "C": 75,
+   "m": 106,
+   "K": 2,
+   "var": false
+  },
+  "IRDS-STL": {
+   "n_train": 226,
+   "n_test": 38,
+   "C": 75,
+   "m": 66,
+   "K": 2,
+   "var": false
+  },
+  "IRDS-STR": {
+   "n_train": 221,
+   "n_test": 60,
+   "C": 75,
+   "m": 66,
+   "K": 2,
+   "var": false
+  },
+  "ImaginedFeetHands": {
+   "n_train": 2835,
+   "n_test": 1935,
+   "C": 64,
+   "m": 640,
+   "K": 2,
+   "var": false
+  },
+  "ImaginedOpenCloseFist": {
+   "n_train": 2835,
+   "n_test": 1890,
+   "C": 64,
+   "m": 640,
+   "K": 2,
+   "var": false
+  },
+  "InnerSpeech": {
+   "n_train": 250,
+   "n_test": 200,
+   "C": 128,
+   "m": 3584,
+   "K": 4,
+   "var": false
+  },
+  "InsectWingbeat": {
+   "n_train": 25000,
+   "n_test": 25000,
+   "C": 200,
+   "m": 22,
+   "K": 10,
+   "var": true
+  },
+  "JapaneseVowels": {
+   "n_train": 270,
+   "n_test": 370,
+   "C": 12,
+   "m": 29,
+   "K": 9,
+   "var": true
+  },
+  "KERAAL-CTK": {
+   "n_train": 271,
+   "n_test": 14,
+   "C": 77,
+   "m": 276,
+   "K": 2,
+   "var": false
+  },
+  "KERAAL-CTK-MC": {
+   "n_train": 271,
+   "n_test": 14,
+   "C": 77,
+   "m": 276,
+   "K": 4,
+   "var": false
+  },
+  "KERAAL-ELK": {
+   "n_train": 247,
+   "n_test": 10,
+   "C": 77,
+   "m": 295,
+   "K": 2,
+   "var": false
+  },
+  "KERAAL-ELK-MC": {
+   "n_train": 243,
+   "n_test": 14,
+   "C": 77,
+   "m": 295,
+   "K": 4,
+   "var": false
+  },
+  "KERAAL-RTK": {
+   "n_train": 256,
+   "n_test": 14,
+   "C": 77,
+   "m": 264,
+   "K": 2,
+   "var": false
+  },
+  "KERAAL-RTK-MC": {
+   "n_train": 257,
+   "n_test": 13,
+   "C": 77,
+   "m": 264,
+   "K": 4,
+   "var": false
+  },
+  "KIMORE-LA-C": {
+   "n_train": 64,
+   "n_test": 7,
+   "C": 54,
+   "m": 725,
+   "K": 2,
+   "var": false
+  },
+  "KIMORE-LT-C": {
+   "n_train": 64,
+   "n_test": 7,
+   "C": 54,
+   "m": 798,
+   "K": 2,
+   "var": false
+  },
+  "KIMORE-PR-C": {
+   "n_train": 64,
+   "n_test": 7,
+   "C": 54,
+   "m": 847,
+   "K": 2,
+   "var": false
+  },
+  "KIMORE-Sq-C": {
+   "n_train": 64,
+   "n_test": 7,
+   "C": 54,
+   "m": 557,
+   "K": 2,
+   "var": false
+  },
+  "KIMORE-TR-C": {
+   "n_train": 64,
+   "n_test": 7,
+   "C": 54,
+   "m": 813,
+   "K": 2,
+   "var": false
+  },
+  "KINECAL-3WFV": {
+   "n_train": 48,
+   "n_test": 12,
+   "C": 75,
+   "m": 257,
+   "K": 2,
+   "var": false
+  },
+  "KINECAL-GGFV": {
+   "n_train": 49,
+   "n_test": 13,
+   "C": 75,
+   "m": 296,
+   "K": 2,
+   "var": false
+  },
+  "KINECAL-QSEC": {
+   "n_train": 69,
+   "n_test": 18,
+   "C": 75,
+   "m": 592,
+   "K": 2,
+   "var": false
+  },
+  "KINECAL-QSEO": {
+   "n_train": 68,
+   "n_test": 17,
+   "C": 75,
+   "m": 593,
+   "K": 2,
+   "var": false
+  },
+  "LSST": {
+   "n_train": 2459,
+   "n_test": 2466,
+   "C": 6,
+   "m": 36,
+   "K": 14,
+   "var": false
+  },
+  "LenDB": {
+   "n_train": 983483,
+   "n_test": 261459,
+   "C": 3,
+   "m": 540,
+   "K": 2,
+   "var": false
+  },
+  "Libras": {
+   "n_train": 180,
+   "n_test": 180,
+   "C": 2,
+   "m": 45,
+   "K": 15,
+   "var": false
+  },
+  "LiveFuelMoistureContent_disc": {
+   "n_train": 3493,
+   "n_test": 1510,
+   "C": 7,
+   "m": 365,
+   "K": 2,
+   "var": false
+  },
+  "Locust2022": {
+   "n_train": 6597,
+   "n_test": 3299,
+   "C": 13,
+   "m": 96,
+   "K": 2,
+   "var": false
+  },
+  "LongIntervalTask": {
+   "n_train": 1660,
+   "n_test": 1120,
+   "C": 63,
+   "m": 4750,
+   "K": 2,
+   "var": false
+  },
+  "LowCost": {
+   "n_train": 600,
+   "n_test": 600,
+   "C": 15,
+   "m": 375,
+   "K": 2,
+   "var": false
+  },
+  "MatchingPennies": {
+   "n_train": 700,
+   "n_test": 700,
+   "C": 10,
+   "m": 10000,
+   "K": 2,
+   "var": false
+  },
+  "MindReading": {
+   "n_train": 727,
+   "n_test": 653,
+   "C": 204,
+   "m": 200,
+   "K": 5,
+   "var": false
+  },
+  "MotionSenseHAR": {
+   "n_train": 966,
+   "n_test": 265,
+   "C": 12,
+   "m": 1000,
+   "K": 6,
+   "var": false
+  },
+  "MotorImagery": {
+   "n_train": 278,
+   "n_test": 100,
+   "C": 64,
+   "m": 3000,
+   "K": 2,
+   "var": false
+  },
+  "NATOPS": {
+   "n_train": 180,
+   "n_test": 180,
+   "C": 24,
+   "m": 51,
+   "K": 6,
+   "var": false
+  },
+  "NewsHeadlineSentiment_disc": {
+   "n_train": 58213,
+   "n_test": 24951,
+   "C": 3,
+   "m": 144,
+   "K": 3,
+   "var": false
+  },
+  "NewsTitleSentiment_disc": {
+   "n_train": 58213,
+   "n_test": 24951,
+   "C": 3,
+   "m": 144,
+   "K": 3,
+   "var": false
+  },
+  "OpenCloseFist": {
+   "n_train": 2835,
+   "n_test": 1890,
+   "C": 64,
+   "m": 640,
+   "K": 2,
+   "var": false
+  },
+  "Opportunity": {
+   "n_train": 12184,
+   "n_test": 5202,
+   "C": 113,
+   "m": 100,
+   "K": 5,
+   "var": false
+  },
+  "PAMAP2": {
+   "n_train": 28961,
+   "n_test": 9895,
+   "C": 52,
+   "m": 100,
+   "K": 12,
+   "var": false
+  },
+  "PEMS-SF": {
+   "n_train": 267,
+   "n_test": 173,
+   "C": 963,
+   "m": 144,
+   "K": 7,
+   "var": false
+  },
+  "PPGDalia_disc": {
+   "n_train": 43215,
+   "n_test": 21482,
+   "C": 4,
+   "m": 512,
+   "K": 3,
+   "var": true
+  },
+  "PenDigits": {
+   "n_train": 7494,
+   "n_test": 3498,
+   "C": 2,
+   "m": 8,
+   "K": 10,
+   "var": false
+  },
+  "PhonemeSpectra": {
+   "n_train": 3315,
+   "n_test": 3353,
+   "C": 11,
+   "m": 217,
+   "K": 39,
+   "var": false
+  },
+  "PhotoStimulation": {
+   "n_train": 37,
+   "n_test": 36,
+   "C": 19,
+   "m": 9000,
+   "K": 3,
+   "var": false
+  },
+  "PronouncedSpeech": {
+   "n_train": 250,
+   "n_test": 200,
+   "C": 128,
+   "m": 3584,
+   "K": 4,
+   "var": false
+  },
+  "RacketSports": {
+   "n_train": 151,
+   "n_test": 152,
+   "C": 6,
+   "m": 30,
+   "K": 4,
+   "var": false
+  },
+  "S2Agri-10pc-17": {
+   "n_train": 4661858,
+   "n_test": 1189023,
+   "C": 10,
+   "m": 24,
+   "K": 17,
+   "var": false
+  },
+  "S2Agri-10pc-34": {
+   "n_train": 4661858,
+   "n_test": 1189023,
+   "C": 10,
+   "m": 24,
+   "K": 29,
+   "var": false
+  },
+  "S2Agri-17": {
+   "n_train": 47328752,
+   "n_test": 11940071,
+   "C": 10,
+   "m": 24,
+   "K": 17,
+   "var": false
+  },
+  "S2Agri-34": {
+   "n_train": 47328752,
+   "n_test": 11940071,
+   "C": 10,
+   "m": 24,
+   "K": 34,
+   "var": false
+  },
+  "SPHERE-WUS": {
+   "n_train": 44,
+   "n_test": 4,
+   "C": 45,
+   "m": 214,
+   "K": 2,
+   "var": false
+  },
+  "STEW": {
+   "n_train": 21384,
+   "n_test": 7128,
+   "C": 14,
+   "m": 256,
+   "K": 2,
+   "var": false
+  },
+  "SelfRegulationSCP1": {
+   "n_train": 268,
+   "n_test": 293,
+   "C": 6,
+   "m": 896,
+   "K": 2,
+   "var": false
+  },
+  "SelfRegulationSCP2": {
+   "n_train": 200,
+   "n_test": 180,
+   "C": 7,
+   "m": 1152,
+   "K": 2,
+   "var": false
+  },
+  "ShortIntervalTask": {
+   "n_train": 1360,
+   "n_test": 1420,
+   "C": 63,
+   "m": 2750,
+   "K": 2,
+   "var": false
+  },
+  "SitStand": {
+   "n_train": 3200,
+   "n_test": 3200,
+   "C": 17,
+   "m": 1250,
+   "K": 4,
+   "var": false
+  },
+  "Skoda": {
+   "n_train": 11290,
+   "n_test": 2827,
+   "C": 60,
+   "m": 100,
+   "K": 11,
+   "var": false
+  },
+  "SongFamiliarity": {
+   "n_train": 700,
+   "n_test": 750,
+   "C": 32,
+   "m": 3000,
+   "K": 2,
+   "var": false
+  },
+  "SpokenArabicDigits": {
+   "n_train": 6599,
+   "n_test": 2199,
+   "C": 13,
+   "m": 93,
+   "K": 10,
+   "var": true
+  },
+  "StandWalkJump": {
+   "n_train": 12,
+   "n_test": 15,
+   "C": 4,
+   "m": 2500,
+   "K": 3,
+   "var": false
+  },
+  "TactileTextureRecognition": {
+   "n_train": 1586,
+   "n_test": 681,
+   "C": 6,
+   "m": 2000,
+   "K": 21,
+   "var": false
+  },
+  "Tiselac": {
+   "n_train": 79907,
+   "n_test": 19780,
+   "C": 10,
+   "m": 23,
+   "K": 9,
+   "var": false
+  },
+  "UCDHE-MP": {
+   "n_train": 1495,
+   "n_test": 362,
+   "C": 16,
+   "m": 161,
+   "K": 2,
+   "var": false
+  },
+  "UCDHE-MP-MC": {
+   "n_train": 1495,
+   "n_test": 362,
+   "C": 16,
+   "m": 161,
+   "K": 4,
+   "var": false
+  },
+  "UCDHE-Rowing": {
+   "n_train": 1992,
+   "n_test": 440,
+   "C": 16,
+   "m": 161,
+   "K": 2,
+   "var": false
+  },
+  "UCDHE-Rowing-MC": {
+   "n_train": 1992,
+   "n_test": 440,
+   "C": 16,
+   "m": 161,
+   "K": 5,
+   "var": false
+  },
+  "UCIActivity": {
+   "n_train": 7898,
+   "n_test": 2401,
+   "C": 9,
+   "m": 128,
+   "K": 6,
+   "var": false
+  },
+  "UIPRMD-DS-C": {
+   "n_train": 144,
+   "n_test": 36,
+   "C": 66,
+   "m": 81,
+   "K": 2,
+   "var": false
+  },
+  "UIPRMD-HS-C": {
+   "n_train": 92,
+   "n_test": 18,
+   "C": 66,
+   "m": 69,
+   "K": 2,
+   "var": false
+  },
+  "UIPRMD-IL-C": {
+   "n_train": 84,
+   "n_test": 18,
+   "C": 66,
+   "m": 77,
+   "K": 2,
+   "var": false
+  },
+  "UIPRMD-SASLR-C": {
+   "n_train": 126,
+   "n_test": 20,
+   "C": 66,
+   "m": 63,
+   "K": 2,
+   "var": false
+  },
+  "UIPRMD-SL-C": {
+   "n_train": 122,
+   "n_test": 18,
+   "C": 66,
+   "m": 85,
+   "K": 2,
+   "var": false
+  },
+  "UIPRMD-SSA-C": {
+   "n_train": 108,
+   "n_test": 18,
+   "C": 66,
+   "m": 74,
+   "K": 2,
+   "var": false
+  },
+  "UIPRMD-SSE-C": {
+   "n_train": 108,
+   "n_test": 18,
+   "C": 66,
+   "m": 67,
+   "K": 2,
+   "var": false
+  },
+  "UIPRMD-SSIER-C": {
+   "n_train": 100,
+   "n_test": 20,
+   "C": 66,
+   "m": 74,
+   "K": 2,
+   "var": false
+  },
+  "UIPRMD-SSS-C": {
+   "n_train": 90,
+   "n_test": 18,
+   "C": 66,
+   "m": 66,
+   "K": 2,
+   "var": false
+  },
+  "UIPRMD-STS-C": {
+   "n_train": 132,
+   "n_test": 36,
+   "C": 66,
+   "m": 88,
+   "K": 2,
+   "var": false
+  },
+  "USCActivity": {
+   "n_train": 43060,
+   "n_test": 13168,
+   "C": 6,
+   "m": 100,
+   "K": 12,
+   "var": false
+  },
+  "UWaveGestureLibrary": {
+   "n_train": 120,
+   "n_test": 320,
+   "C": 3,
+   "m": 315,
+   "K": 8,
+   "var": false
+  },
+  "VisualSpeech": {
+   "n_train": 250,
+   "n_test": 200,
+   "C": 128,
+   "m": 3584,
+   "K": 4,
+   "var": false
+  },
+  "WISDM": {
+   "n_train": 11989,
+   "n_test": 5177,
+   "C": 3,
+   "m": 100,
+   "K": 6,
+   "var": false
+  },
+  "WISDM2": {
+   "n_train": 98094,
+   "n_test": 50940,
+   "C": 3,
+   "m": 100,
+   "K": 6,
+   "var": false
+  }
+ }
+}

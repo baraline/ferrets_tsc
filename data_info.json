@@ -1,0 +1,1794 @@
+{
+   "ACSF1":{
+      "type":"Device",
+      "length":1460,
+      "training samples":100,
+      "testing samples":100,
+      "number of classes":10,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "Adiac":{
+      "type":"Image",
+      "length":176,
+      "training samples":390,
+      "testing samples":391,
+      "number of classes":37,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":23,
+      "margin between most and least populated class":11
+   },
+   "AllGestureWiimoteX":{
+      "type":"Sensor",
+      "length":500,
+      "training samples":300,
+      "testing samples":700,
+      "number of classes":10,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "AllGestureWiimoteY":{
+      "type":"Sensor",
+      "length":500,
+      "training samples":300,
+      "testing samples":700,
+      "number of classes":10,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "AllGestureWiimoteZ":{
+      "type":"Sensor",
+      "length":500,
+      "training samples":300,
+      "testing samples":700,
+      "number of classes":10,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "ArrowHead":{
+      "type":"Image",
+      "length":251,
+      "training samples":36,
+      "testing samples":175,
+      "number of classes":3,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "BME":{
+      "type":"Simulated",
+      "length":128,
+      "training samples":30,
+      "testing samples":150,
+      "number of classes":3,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "Beef":{
+      "type":"Spectro",
+      "length":470,
+      "training samples":30,
+      "testing samples":30,
+      "number of classes":5,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "BeetleFly":{
+      "type":"Image",
+      "length":512,
+      "training samples":20,
+      "testing samples":20,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "BirdChicken":{
+      "type":"Image",
+      "length":512,
+      "training samples":20,
+      "testing samples":20,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "CBF":{
+      "type":"Simulated",
+      "length":128,
+      "training samples":30,
+      "testing samples":900,
+      "number of classes":3,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":4
+   },
+   "Car":{
+      "type":"Sensor",
+      "length":577,
+      "training samples":60,
+      "testing samples":60,
+      "number of classes":4,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":3,
+      "margin between most and least populated class":6
+   },
+   "Chinatown":{
+      "type":"Traffic",
+      "length":24,
+      "training samples":20,
+      "testing samples":343,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "ChlorineConcentration":{
+      "type":"Sensor",
+      "length":166,
+      "training samples":467,
+      "testing samples":3840,
+      "number of classes":3,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":2,
+      "margin between most and least populated class":171
+   },
+   "CinCECGTorso":{
+      "type":"Sensor",
+      "length":1639,
+      "training samples":40,
+      "testing samples":1380,
+      "number of classes":4,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":8
+   },
+   "Coffee":{
+      "type":"Spectro",
+      "length":286,
+      "training samples":28,
+      "testing samples":28,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "Computers":{
+      "type":"Device",
+      "length":720,
+      "training samples":250,
+      "testing samples":250,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "CricketX":{
+      "type":"Motion",
+      "length":300,
+      "training samples":390,
+      "testing samples":390,
+      "number of classes":12,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":10,
+      "margin between most and least populated class":14
+   },
+   "CricketY":{
+      "type":"Motion",
+      "length":300,
+      "training samples":390,
+      "testing samples":390,
+      "number of classes":12,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":2,
+      "margin between most and least populated class":8
+   },
+   "CricketZ":{
+      "type":"Motion",
+      "length":300,
+      "training samples":390,
+      "testing samples":390,
+      "number of classes":12,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":6,
+      "margin between most and least populated class":16
+   },
+   "Crop":{
+      "type":"Image",
+      "length":46,
+      "training samples":7200,
+      "testing samples":16800,
+      "number of classes":24,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "DiatomSizeReduction":{
+      "type":"Image",
+      "length":345,
+      "training samples":16,
+      "testing samples":306,
+      "number of classes":4,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":5
+   },
+   "DistalPhalanxOutlineAgeGroup":{
+      "type":"Image",
+      "length":80,
+      "training samples":400,
+      "testing samples":139,
+      "number of classes":3,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":2,
+      "margin between most and least populated class":227
+   },
+   "DistalPhalanxOutlineCorrect":{
+      "type":"Image",
+      "length":80,
+      "training samples":600,
+      "testing samples":276,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":156
+   },
+   "DistalPhalanxTW":{
+      "type":"Image",
+      "length":80,
+      "training samples":400,
+      "testing samples":139,
+      "number of classes":6,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":5,
+      "margin between most and least populated class":195
+   },
+   "DodgerLoopDay":{
+      "type":"Sensor",
+      "length":288,
+      "training samples":78,
+      "testing samples":80,
+      "number of classes":7,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":0,
+      "margin between most and least populated class":2
+   },
+   "DodgerLoopGame":{
+      "type":"Sensor",
+      "length":288,
+      "training samples":20,
+      "testing samples":138,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "DodgerLoopWeekend":{
+      "type":"Sensor",
+      "length":288,
+      "training samples":20,
+      "testing samples":138,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "ECG200":{
+      "type":"ECG",
+      "length":96,
+      "training samples":100,
+      "testing samples":100,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":38
+   },
+   "ECG5000":{
+      "type":"ECG",
+      "length":140,
+      "training samples":500,
+      "testing samples":4500,
+      "number of classes":5,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":0,
+      "margin between most and least populated class":290
+   },
+   "ECGFiveDays":{
+      "type":"ECG",
+      "length":136,
+      "training samples":23,
+      "testing samples":861,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":0,
+      "margin between most and least populated class":5
+   },
+   "EOGHorizontalSignal":{
+      "type":"EOG",
+      "length":1250,
+      "training samples":362,
+      "testing samples":362,
+      "number of classes":12,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":5,
+      "margin between most and least populated class":1
+   },
+   "EOGVerticalSignal":{
+      "type":"EOG",
+      "length":1250,
+      "training samples":362,
+      "testing samples":362,
+      "number of classes":12,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":5,
+      "margin between most and least populated class":1
+   },
+   "Earthquakes":{
+      "type":"Sensor",
+      "length":512,
+      "training samples":322,
+      "testing samples":139,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":0,
+      "margin between most and least populated class":206
+   },
+   "ElectricDevices":{
+      "type":"Device",
+      "length":96,
+      "training samples":8926,
+      "testing samples":7711,
+      "number of classes":7,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":4,
+      "margin between most and least populated class":1897
+   },
+   "EthanolLevel":{
+      "type":"Spectro",
+      "length":1751,
+      "training samples":504,
+      "testing samples":500,
+      "number of classes":4,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "FaceAll":{
+      "type":"Image",
+      "length":131,
+      "training samples":560,
+      "testing samples":1690,
+      "number of classes":14,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "FaceFour":{
+      "type":"Image",
+      "length":350,
+      "training samples":24,
+      "testing samples":88,
+      "number of classes":4,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":0,
+      "margin between most and least populated class":5
+   },
+   "FacesUCR":{
+      "type":"Image",
+      "length":131,
+      "training samples":200,
+      "testing samples":2050,
+      "number of classes":14,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":12,
+      "margin between most and least populated class":29
+   },
+   "FiftyWords":{
+      "type":"Image",
+      "length":270,
+      "training samples":450,
+      "testing samples":455,
+      "number of classes":50,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":0,
+      "margin between most and least populated class":51
+   },
+   "Fish":{
+      "type":"Image",
+      "length":463,
+      "training samples":175,
+      "testing samples":175,
+      "number of classes":7,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":2,
+      "margin between most and least populated class":7
+   },
+   "FordA":{
+      "type":"Sensor",
+      "length":500,
+      "training samples":3601,
+      "testing samples":1320,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":0,
+      "margin between most and least populated class":91
+   },
+   "FordB":{
+      "type":"Sensor",
+      "length":500,
+      "training samples":3636,
+      "testing samples":810,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":0,
+      "margin between most and least populated class":84
+   },
+   "FreezerRegularTrain":{
+      "type":"Sensor",
+      "length":301,
+      "training samples":150,
+      "testing samples":2850,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "FreezerSmallTrain":{
+      "type":"Sensor",
+      "length":301,
+      "training samples":28,
+      "testing samples":2850,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "Fungi":{
+      "type":"HRM",
+      "length":201,
+      "training samples":18,
+      "testing samples":186,
+      "number of classes":18,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "GestureMidAirD1":{
+      "type":"Trajectory",
+      "length":360,
+      "training samples":208,
+      "testing samples":130,
+      "number of classes":26,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "GestureMidAirD2":{
+      "type":"Trajectory",
+      "length":360,
+      "training samples":208,
+      "testing samples":130,
+      "number of classes":26,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "GestureMidAirD3":{
+      "type":"Trajectory",
+      "length":360,
+      "training samples":208,
+      "testing samples":130,
+      "number of classes":26,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "GesturePebbleZ1":{
+      "type":"Trajectory",
+      "length":455,
+      "training samples":132,
+      "testing samples":172,
+      "number of classes":6,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":4,
+      "margin between most and least populated class":5
+   },
+   "GesturePebbleZ2":{
+      "type":"Trajectory",
+      "length":455,
+      "training samples":146,
+      "testing samples":158,
+      "number of classes":6,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":5,
+      "margin between most and least populated class":3
+   },
+   "GunPoint":{
+      "type":"Motion",
+      "length":150,
+      "training samples":50,
+      "testing samples":150,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":2
+   },
+   "GunPointAgeSpan":{
+      "type":"Motion",
+      "length":150,
+      "training samples":135,
+      "testing samples":316,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":0,
+      "margin between most and least populated class":1
+   },
+   "GunPointMaleVersusFemale":{
+      "type":"Motion",
+      "length":150,
+      "training samples":135,
+      "testing samples":316,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":0,
+      "margin between most and least populated class":7
+   },
+   "GunPointOldVersusYoung":{
+      "type":"Motion",
+      "length":150,
+      "training samples":136,
+      "testing samples":315,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":6
+   },
+   "Ham":{
+      "type":"Spectro",
+      "length":431,
+      "training samples":109,
+      "testing samples":105,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":5
+   },
+   "HandOutlines":{
+      "type":"Image",
+      "length":2709,
+      "training samples":1000,
+      "testing samples":370,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":276
+   },
+   "Haptics":{
+      "type":"Motion",
+      "length":1092,
+      "training samples":155,
+      "testing samples":308,
+      "number of classes":5,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":3,
+      "margin between most and least populated class":18
+   },
+   "Herring":{
+      "type":"Image",
+      "length":512,
+      "training samples":64,
+      "testing samples":64,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":0,
+      "margin between most and least populated class":14
+   },
+   "HouseTwenty":{
+      "type":"Device",
+      "length":2000,
+      "training samples":40,
+      "testing samples":119,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "InlineSkate":{
+      "type":"Motion",
+      "length":1882,
+      "training samples":100,
+      "testing samples":550,
+      "number of classes":7,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":2,
+      "margin between most and least populated class":9
+   },
+   "InsectEPGRegularTrain":{
+      "type":"EPG",
+      "length":601,
+      "training samples":62,
+      "testing samples":249,
+      "number of classes":3,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":20
+   },
+   "InsectEPGSmallTrain":{
+      "type":"EPG",
+      "length":601,
+      "training samples":17,
+      "testing samples":249,
+      "number of classes":3,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":5
+   },
+   "InsectWingbeatSound":{
+      "type":"Sensor",
+      "length":256,
+      "training samples":220,
+      "testing samples":1980,
+      "number of classes":11,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "ItalyPowerDemand":{
+      "type":"Sensor",
+      "length":24,
+      "training samples":67,
+      "testing samples":1029,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":0,
+      "margin between most and least populated class":1
+   },
+   "LargeKitchenAppliances":{
+      "type":"Device",
+      "length":720,
+      "training samples":375,
+      "testing samples":375,
+      "number of classes":3,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "Lightning2":{
+      "type":"Sensor",
+      "length":637,
+      "training samples":60,
+      "testing samples":61,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":20
+   },
+   "Lightning7":{
+      "type":"Sensor",
+      "length":319,
+      "training samples":70,
+      "testing samples":73,
+      "number of classes":7,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":5,
+      "margin between most and least populated class":14
+   },
+   "Mallat":{
+      "type":"Simulated",
+      "length":1024,
+      "training samples":55,
+      "testing samples":2345,
+      "number of classes":8,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":3,
+      "margin between most and least populated class":9
+   },
+   "Meat":{
+      "type":"Spectro",
+      "length":448,
+      "training samples":60,
+      "testing samples":60,
+      "number of classes":3,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "MedicalImages":{
+      "type":"Image",
+      "length":99,
+      "training samples":381,
+      "testing samples":760,
+      "number of classes":10,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":9,
+      "margin between most and least populated class":197
+   },
+   "MelbournePedestrian":{
+      "type":"Traffic",
+      "length":24,
+      "training samples":1194,
+      "testing samples":2439,
+      "number of classes":10,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":0,
+      "margin between most and least populated class":5
+   },
+   "MiddlePhalanxOutlineAgeGroup":{
+      "type":"Image",
+      "length":80,
+      "training samples":400,
+      "testing samples":154,
+      "number of classes":3,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":2,
+      "margin between most and least populated class":182
+   },
+   "MiddlePhalanxOutlineCorrect":{
+      "type":"Image",
+      "length":80,
+      "training samples":600,
+      "testing samples":291,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":176
+   },
+   "MiddlePhalanxTW":{
+      "type":"Image",
+      "length":80,
+      "training samples":399,
+      "testing samples":154,
+      "number of classes":6,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":5,
+      "margin between most and least populated class":135
+   },
+   "MixedShapesRegularTrain":{
+      "type":"Image",
+      "length":1024,
+      "training samples":500,
+      "testing samples":2425,
+      "number of classes":5,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "MixedShapesSmallTrain":{
+      "type":"Image",
+      "length":1024,
+      "training samples":100,
+      "testing samples":2425,
+      "number of classes":5,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "MoteStrain":{
+      "type":"Sensor",
+      "length":84,
+      "training samples":20,
+      "testing samples":1252,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "NonInvasiveFetalECGThorax1":{
+      "type":"ECG",
+      "length":750,
+      "training samples":1800,
+      "testing samples":1965,
+      "number of classes":42,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":9,
+      "margin between most and least populated class":21
+   },
+   "NonInvasiveFetalECGThorax2":{
+      "type":"ECG",
+      "length":750,
+      "training samples":1800,
+      "testing samples":1965,
+      "number of classes":42,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":9,
+      "margin between most and least populated class":21
+   },
+   "OSULeaf":{
+      "type":"Image",
+      "length":427,
+      "training samples":200,
+      "testing samples":242,
+      "number of classes":6,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":3,
+      "margin between most and least populated class":38
+   },
+   "OliveOil":{
+      "type":"Spectro",
+      "length":570,
+      "training samples":30,
+      "testing samples":30,
+      "number of classes":4,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":3,
+      "margin between most and least populated class":9
+   },
+   "PLAID":{
+      "type":"Device",
+      "length":1344,
+      "training samples":537,
+      "testing samples":537,
+      "number of classes":11,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":75
+   },
+   "PhalangesOutlinesCorrect":{
+      "type":"Image",
+      "length":80,
+      "training samples":1800,
+      "testing samples":858,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":544
+   },
+   "Phoneme":{
+      "type":"Sensor",
+      "length":1024,
+      "training samples":214,
+      "testing samples":1896,
+      "number of classes":39,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":2,
+      "margin between most and least populated class":23
+   },
+   "PickupGestureWiimoteZ":{
+      "type":"Sensor",
+      "length":361,
+      "training samples":50,
+      "testing samples":50,
+      "number of classes":10,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "PigAirwayPressure":{
+      "type":"Hemodynamics",
+      "length":2000,
+      "training samples":104,
+      "testing samples":208,
+      "number of classes":52,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "PigArtPressure":{
+      "type":"Hemodynamics",
+      "length":2000,
+      "training samples":104,
+      "testing samples":208,
+      "number of classes":52,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "PigCVP":{
+      "type":"Hemodynamics",
+      "length":2000,
+      "training samples":104,
+      "testing samples":208,
+      "number of classes":52,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "Plane":{
+      "type":"Sensor",
+      "length":144,
+      "training samples":105,
+      "testing samples":105,
+      "number of classes":7,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":6,
+      "margin between most and least populated class":11
+   },
+   "PowerCons":{
+      "type":"Power",
+      "length":144,
+      "training samples":180,
+      "testing samples":180,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "ProximalPhalanxOutlineAgeGroup":{
+      "type":"Image",
+      "length":80,
+      "training samples":400,
+      "testing samples":205,
+      "number of classes":3,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":2,
+      "margin between most and least populated class":117
+   },
+   "ProximalPhalanxOutlineCorrect":{
+      "type":"Image",
+      "length":80,
+      "training samples":600,
+      "testing samples":291,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":212
+   },
+   "ProximalPhalanxTW":{
+      "type":"Image",
+      "length":80,
+      "training samples":400,
+      "testing samples":205,
+      "number of classes":6,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":5,
+      "margin between most and least populated class":164
+   },
+   "RefrigerationDevices":{
+      "type":"Device",
+      "length":720,
+      "training samples":375,
+      "testing samples":375,
+      "number of classes":3,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "Rock":{
+      "type":"Spectro",
+      "length":2844,
+      "training samples":20,
+      "testing samples":50,
+      "number of classes":4,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "ScreenType":{
+      "type":"Device",
+      "length":720,
+      "training samples":375,
+      "testing samples":375,
+      "number of classes":3,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "SemgHandGenderCh2":{
+      "type":"Spectro",
+      "length":1500,
+      "training samples":300,
+      "testing samples":600,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "SemgHandMovementCh2":{
+      "type":"Spectro",
+      "length":1500,
+      "training samples":450,
+      "testing samples":450,
+      "number of classes":6,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "SemgHandSubjectCh2":{
+      "type":"Spectro",
+      "length":1500,
+      "training samples":450,
+      "testing samples":450,
+      "number of classes":5,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "ShakeGestureWiimoteZ":{
+      "type":"Spectro",
+      "length":385,
+      "training samples":50,
+      "testing samples":50,
+      "number of classes":10,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "ShapeletSim":{
+      "type":"Simulated",
+      "length":500,
+      "training samples":20,
+      "testing samples":180,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "ShapesAll":{
+      "type":"Image",
+      "length":512,
+      "training samples":600,
+      "testing samples":600,
+      "number of classes":60,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "SmallKitchenAppliances":{
+      "type":"Device",
+      "length":720,
+      "training samples":375,
+      "testing samples":375,
+      "number of classes":3,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "SmoothSubspace":{
+      "type":"Simulated",
+      "length":15,
+      "training samples":150,
+      "testing samples":150,
+      "number of classes":3,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "SonyAIBORobotSurface1":{
+      "type":"Sensor",
+      "length":70,
+      "training samples":20,
+      "testing samples":601,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":8
+   },
+   "SonyAIBORobotSurface2":{
+      "type":"Sensor",
+      "length":65,
+      "training samples":27,
+      "testing samples":953,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":5
+   },
+   "StarLightCurves":{
+      "type":"Sensor",
+      "length":1024,
+      "training samples":1000,
+      "testing samples":8236,
+      "number of classes":3,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":2,
+      "margin between most and least populated class":421
+   },
+   "Strawberry":{
+      "type":"Spectro",
+      "length":235,
+      "training samples":613,
+      "testing samples":370,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":175
+   },
+   "SwedishLeaf":{
+      "type":"Image",
+      "length":128,
+      "training samples":500,
+      "testing samples":625,
+      "number of classes":15,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":13,
+      "margin between most and least populated class":16
+   },
+   "Symbols":{
+      "type":"Image",
+      "length":398,
+      "training samples":25,
+      "testing samples":995,
+      "number of classes":6,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":0,
+      "margin between most and least populated class":5
+   },
+   "SyntheticControl":{
+      "type":"Simulated",
+      "length":60,
+      "training samples":300,
+      "testing samples":300,
+      "number of classes":6,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "ToeSegmentation1":{
+      "type":"Motion",
+      "length":277,
+      "training samples":40,
+      "testing samples":228,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "ToeSegmentation2":{
+      "type":"Motion",
+      "length":343,
+      "training samples":36,
+      "testing samples":130,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "Trace":{
+      "type":"Sensor",
+      "length":275,
+      "training samples":100,
+      "testing samples":100,
+      "number of classes":4,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":3,
+      "margin between most and least populated class":10
+   },
+   "TwoLeadECG":{
+      "type":"ECG",
+      "length":82,
+      "training samples":23,
+      "testing samples":1139,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":0,
+      "margin between most and least populated class":1
+   },
+   "TwoPatterns":{
+      "type":"Simulated",
+      "length":128,
+      "training samples":1000,
+      "testing samples":4000,
+      "number of classes":4,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":0,
+      "margin between most and least populated class":34
+   },
+   "UMD":{
+      "type":"Simulated",
+      "length":150,
+      "training samples":36,
+      "testing samples":144,
+      "number of classes":3,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":true,
+      "most populated class":0,
+      "margin between most and least populated class":0
+   },
+   "UWaveGestureLibraryAll":{
+      "type":"Motion",
+      "length":945,
+      "training samples":896,
+      "testing samples":3582,
+      "number of classes":8,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":4,
+      "margin between most and least populated class":27
+   },
+   "UWaveGestureLibraryX":{
+      "type":"Motion",
+      "length":315,
+      "training samples":896,
+      "testing samples":3582,
+      "number of classes":8,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":4,
+      "margin between most and least populated class":27
+   },
+   "UWaveGestureLibraryY":{
+      "type":"Motion",
+      "length":315,
+      "training samples":896,
+      "testing samples":3582,
+      "number of classes":8,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":4,
+      "margin between most and least populated class":27
+   },
+   "UWaveGestureLibraryZ":{
+      "type":"Motion",
+      "length":315,
+      "training samples":896,
+      "testing samples":3582,
+      "number of classes":8,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":4,
+      "margin between most and least populated class":27
+   },
+   "Wafer":{
+      "type":"Sensor",
+      "length":152,
+      "training samples":1000,
+      "testing samples":6164,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":806
+   },
+   "Wine":{
+      "type":"Spectro",
+      "length":234,
+      "training samples":57,
+      "testing samples":54,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":0,
+      "margin between most and least populated class":3
+   },
+   "WordSynonyms":{
+      "type":"Image",
+      "length":270,
+      "training samples":267,
+      "testing samples":638,
+      "number of classes":25,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":58
+   },
+   "Worms":{
+      "type":"Motion",
+      "length":900,
+      "training samples":181,
+      "testing samples":77,
+      "number of classes":5,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":0,
+      "margin between most and least populated class":59
+   },
+   "WormsTwoClass":{
+      "type":"Motion",
+      "length":900,
+      "training samples":181,
+      "testing samples":77,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":29
+   },
+   "Yoga":{
+      "type":"Image",
+      "length":426,
+      "training samples":300,
+      "testing samples":3000,
+      "number of classes":2,
+      "z-normalization":{
+         "is train z-normalized":false,
+         "is test z-normalized":false
+      },
+      "labels are uniformly distributed":false,
+      "most populated class":1,
+      "margin between most and least populated class":26
+   }
+}

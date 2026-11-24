@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ferrets"
+version = "0.1.0"
+description = "FERRETS: a scalable symbolic transform and classifier for time series, as aeon estimators."
+readme = "README.md"
+authors = [{name = "Antoine Guillaume"}]
+requires-python = ">=3.11,<3.15"
+license = "BSD-3-Clause"
+license-files = ["LICENSE"]
+dependencies = [
+    "numpy",
+    "numba",
+    "scipy",
+    "scikit-learn",
+    "aeon>=1.5,<2",
+]
+
+[project.urls]
+Repository = "https://github.com/baraline/ferrets_tsc"
+
+[tool.setuptools.packages.find]
+include = ["ferrets*"]

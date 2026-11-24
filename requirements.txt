@@ -1,0 +1,48 @@
+# Python 3.14.6: the environment every released row was measured in (Windows
+# 11). Pins = what that environment held.
+#
+#   py -3.14 -m venv .venv
+#   .venv\Scripts\python.exe -m pip install -r requirements.txt
+#
+# AEON IS THE BINDING CONSTRAINT, not Python. aeon 1.5.0 caps numba<0.64,
+# scikit-learn<1.9, pandas<2.4, numpy<2.5 and scipy<1.18, so the pins below are
+# the newest release of each that aeon permits. Asking pip for a newer numba
+# makes it resolve the conflict by silently installing a 2 KB `aeon-0.0.0`
+# stub, which looks like a successful install and leaves no aeon at all.
+# Install aeon first, or pin as written.
+#
+# numba 0.63.1 is the only numba below aeon's ceiling that ships a cp314 wheel,
+# which is the sole reason Python 3.14 is reachable here.
+
+aeon==1.5.0
+numba==0.63.1
+llvmlite==0.46.0
+numpy==2.3.5
+scipy==1.17.1
+scikit-learn==1.8.0
+pandas==2.3.3
+
+# aeon downloads the UCR / Multiverse archives through huggingface_hub, and
+# the MONSTER loader (monster_loader.py) reads the hub directly.
+huggingface_hub==1.27.0
+
+# numba's threading layer: numba prefers tbb whenever it is loadable;
+# removing the pin falls back to omp/workqueue.
+tbb==2023.1.0
+
+# Competitor soft dependencies (aeon): torch backs Hydra / MultiRocket-Hydra
+# (CPU build: pip install torch --index-url https://download.pytorch.org/whl/cpu),
+# sparse backs BORF.
+torch==2.13.0
+sparse==0.19.2
+
+# Measurement: psutil reads the memory columns in the benchmark children
+# (experiments/benchkit/memory.py).
+psutil==7.2.2
+
+# Reading the MONSTER results workbook (experiments/import_published_monster.py).
+openpyxl==3.1.5
+
+# NOT in this environment: MrSQM has no Windows wheel (it needs FFTW3). It
+# runs under WSL2 in a Linux environment with these pins except
+# scikit-learn==1.6.1, plus mrsqm==0.0.7 (see README.md, Reproducing).
