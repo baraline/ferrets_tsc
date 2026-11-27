@@ -12,8 +12,7 @@ application: a class-weighted ridge head fitted in one batch, or an averaged
 least-squares SGD head that streams the design from a cache for data that do
 not fit in memory. This repository holds the implementation (two aeon
 estimators), the paper ([paper/ferrets.pdf](paper/ferrets.pdf)), every
-result the paper reads and the scripts that produce them. The model is
-described in [docs/model.md](docs/model.md).
+result the paper reads and the scripts that produce them.
 
 ## Install
 
