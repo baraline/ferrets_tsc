@@ -1,3 +1,5 @@
+A word of warning : The following work has not yet been published and peer reviewed and should be considered as a research preview. Treat it as such.
+
 # FERRETS
 
 FERRETS (Fast Exact Random Radix Encodings of Time Series) is a symbolic
@@ -194,11 +196,14 @@ such a row runs the gate again on that cell, from the rows that remain.
 ## Citation
 
 ```bibtex
-@misc{guillaume2026ferrets,
-  title = {FERRETS: A Scalable Symbolic Transform for Time Series Classification},
-  author = {Antoine Guillaume},
-  year = {2026},
-  howpublished = {\url{https://github.com/baraline/ferrets_tsc}}
+@misc{guillaume2026ferretsscalablesymbolictransform,
+      title={FERRETS: A Scalable Symbolic Transform for Time Series Classification}, 
+      author={Antoine Guillaume},
+      year={2026},
+      eprint={2611.33249},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2611.33249}, 
 }
 ```
 
